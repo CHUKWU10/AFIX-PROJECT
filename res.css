@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, sans-serif;
+    /* background-color: #f0f4f8; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(./images/فرشاة\ خلفية\ زرقاء\ في\ الغلاف\ الجوي\ وجه\ التكنولوجيا….jpeg);
+
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+ul li{
+    list-style: none;
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 15px 0;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.back-link:hover {
+    color: #0063f6;
+}

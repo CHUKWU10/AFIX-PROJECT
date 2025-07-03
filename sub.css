@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, sans-serif;
+    /* background-color: #f0f4f8; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(./images/Blue\ Technology\ Creative\ Face\ Recognition\ Poster.jpeg);
+}
+
+.cont{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+
+input{
+    width: 500px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+
+}
+
+input::placeholder{
+    font-size: 20px;
+    opacity: 0.5;
+    /* text-align: center; */
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #0063f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #004bb5;
+}
+
+p{  margin: 10px;
+    color: whitesmoke;
+    font-size: 25px;
+    opacity: 0.8;
+    /* text-align: center; */
+}
+
+.back-link:hover {
+    color: #0063f6;
+}  
+
+.back-link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+
+
+
