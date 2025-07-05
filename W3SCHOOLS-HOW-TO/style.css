@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Icon Bars */
+/* .icon-bar{
+    width: 100%;
+
+    background-color: #555;
+}
+
+.icon-bar a{
+    display: block;
+    padding:10px;
+    color: white;
+    font-size: 36px;
+    transition: all 0.3s ease;
+}
+
+.icon-bar a:hover{
+    background-color: #000;
+
+}
+
+.active{
+    background-color: #4CAF50;
+}
+ */
+
+ /* Menu Icon */
+.hamburger{
+    width: 40px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+}
+
+.hamburger span{
+    height: 5px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.hamburger.move{
+    animation: moveRightLeft 2s forwards;
+}
+
+@keyframes moveRightLeft{
+    0%{transform: translateX(0); rotate: 0deg;}
+    50%{transform: translateX(80vw); rotate: (360deg);}
+    100%{transform: translateX(0); rotate: (720deg);}
+}

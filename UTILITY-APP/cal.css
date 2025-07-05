@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(-180deg, #e3f8e4, #608d63);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(189, 186, 186, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h1{
+        font-size: 54px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    input{
+        width: 60%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+    }
+
+    label{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    button{
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #309435; /* Darker green on hover */
+        }
+    }
+
+    .back-link{
+        text-decoration: none;
+        color: #4CAF50;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #124b15; /* Darker green on hover */
+        }
+    }
+}
+
+#operator{
+    outline: none;
+    width: 20%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    
+}
+
+#result{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 30px;
+    outline: none;
+    margin-top: 20px;
+    /* max-width: 400px; */
+    text-align: center;
+}

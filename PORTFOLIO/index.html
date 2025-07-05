@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="./icons8-portfolio-48.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <header id="header">
+    <nav class="navbar">
+      <h1 class="logo">Immanuel</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="modeToggle">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="landing" data-aos="fade-up">
+    <img src="./7bc34aab-171e-4406-b925-c305f9bde492.jpeg" alt="Profile Picture">
+    <h2>Okorie Chukwubueze Immanuel</h2>
+    <p>Passionate Developer & Lifelong Learner</p>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+  </section>
+
+  <section id="projects" class="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project One</h3>
+        <p>Short description of the project.</p>
+      </div>
+      <!-- Add more project cards -->
+    </div>
+  </section>
+
+  <section id="skills" class="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="skill">
+      <label>HTML</label>
+      <div class="progress"><div class="progress-bar html"></div></div>
+    </div>
+    <div class="skill">
+      <label>CSS</label>
+      <div class="progress"><div class="progress-bar css"></div></div>
+    </div>
+    <div class="skill">
+      <label>JavaScript</label>
+      <div class="progress"><div class="progress-bar js"></div></div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial">
+        <p>"Excellent work! Highly recommended."</p>
+        <h4>- Client A</h4>
+      </div>
+      <!-- More testimonials -->
+    </div>
+  </section>
+
+  <section id="blog" class="blog" data-aos="fade-up">
+    <h2>Latest Articles</h2>
+    <div class="blog-post">
+      <h3>My Journey into Web Development</h3>
+      <p>Snippet of the article...</p>
+      <a href="#">Read more</a>
+    </div>
+    <!-- More blog posts -->
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Okorie Chukwubueze Immanuel. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

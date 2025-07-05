@@ -1,0 +1,171 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #007BFF;
+}
+
+#modeToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.landing {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.landing img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  background: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.projects, .skills, .testimonials, .blog, .contact {
+  padding: 4rem 2rem;
+}
+
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.skill {
+  margin-bottom: 1rem;
+}
+
+.progress {
+  background: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #007BFF;
+  width: 0;
+  transition: width 2s;
+}
+
+.progress-bar.html { width: 80%; }
+.progress-bar.css { width: 50%; }
+.progress-bar.js { width: 20%; }
+
+.testimonial-slider {
+  overflow-x: auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.testimonial {
+  min-width: 250px;
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.blog-post {
+  background: #f2f2f2;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.7rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #333;
+  color: #fff;
+}
+
+/* Dark Mode */
+body.dark {
+  background: #121212;
+  color: #f5f5f5;
+}
+body.dark .navbar,
+body.dark footer {
+  background: #1f1f1f;
+}
+body.dark .btn {
+  background: #4dabf7;
+}
+body.dark .project-card,
+body.dark .testimonial,
+body.dark .blog-post {
+  background: #2c2c2c;
+}
+body.dark input,
+body.dark textarea {
+  background: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
